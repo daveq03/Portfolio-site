@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    height: 100vh;
+    background-image:linear-gradient(rgba(3,4,7,0.48)) url(images/1911693_881448278578337_4439774792430883932_n.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
