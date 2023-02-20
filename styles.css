@@ -8,8 +8,48 @@ body{
 }
 .header{
     height: 100vh;
-    background-image:linear-gradient(rgba(3,4,7,0.48)) url(images/1911693_881448278578337_4439774792430883932_n.jpg);
+    background-image:linear-gradient(rgba(3,4,7,0.48), rgba(5,10,30,0.48)), url(images/1911693_881448278578337_4439774792430883932_n.jpg);
     background-size: cover;
     background-position: center;
 
+}
+.header-brand{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 45px;
+}
+.header-brand__span{
+color: #20e700;
+
+}
+nav{
+background-color: orangered;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 3% 7%;
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 10px;
+}
+nav ul li a{
+color: white;
+text-decoration: none;
+font-size: 18px;
+}
+ .header-text{
+   /* background-color: orangered; */
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+.header-text h1{
+    font-size: 70px;
+    margin-top: 10px;
 }
